@@ -1,0 +1,22 @@
+# .gitignore for Resume Keyword Analyzer project
+client/node_modules/
+client/dist/
+
+server/venv/
+server/pycache/
+server/*.pyc
+
+
+server/uploads/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# IDE and editor files
+.vscode/
